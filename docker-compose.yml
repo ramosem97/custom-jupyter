@@ -1,0 +1,8 @@
+version: '0.0.1'
+
+services:
+  kubernetesjupyterhub:
+    image: ramosem97/cust-jupyter-lab
+    build:
+      context: .
+      dockerfile: ./Dockerfile
