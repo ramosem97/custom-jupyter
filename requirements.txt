@@ -15,6 +15,7 @@ jupyter-git
 utm
 nbdime
 jupyter-autotime
+diff-match-patch
 jupyterlab-pullrequests
 lckr-jupyterlab-variableinspector
 git+https://github.com/pyrocko/kite
