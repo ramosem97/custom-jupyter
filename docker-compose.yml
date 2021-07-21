@@ -2,11 +2,11 @@ version: '0.0.1'
 
 service:
   webapp:
-  container_name: cust_jupyter
-  image: ramosem97/cust-jupyter-lab:arm64v8
-  ports:
-    - "9000:9000"
-  platform: linux/arm64/v8
-  build:
-    context: .
-    dockerfile: ./Dockerfile
+    container_name: cust_jupyter
+    image: ramosem97/cust-jupyter-lab:arm64v8
+    ports:
+      - "9000:9000"
+    platform: linux/arm64/v8
+    build:
+      context: .
+      dockerfile: ./Dockerfile
